@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h1 style="text-align: center;">Movie Details</h1>
+ <aside >
+ <img
+src="https://th.bing.com/th/id/OIP.DK32jdKG3HbvtIExnPRUlAHaLl?pid=ImgDet&rs=1"
+alt="image" style="height:300px ;display: block;
+ margin-left: auto;
+ margin-right: auto;">
+ </aside>
+
+ <p>These are the following details:</p>
+ <p id="name"></p>
+ <p id="starring"></p>
+ <p id="language"></p>
+ <p id="rating"></p>
+ <script>
+ const movie={
+ name:"Dasara",
+ starring:"Nani",
+ language:"Telugu",
+ rating:4
+ };
+ document.getElementById("name").innerHTML="<b>Movie
+name: </b>"+movie.name;
+ document.getElementById("starring").innerHTML="<b>Starring:
+</b>"+movie.starring;
+ document.getElementById("language").innerHTML="<b>Language:
+</b>"+movie.language;
+ document.getElementById("rating").innerHTML="<b>Ratings: </b>"+movie.rating;
+ </script>
+
+</body>
+</html>
